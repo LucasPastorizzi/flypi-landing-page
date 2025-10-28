@@ -639,7 +639,7 @@ import { vitePluginManusRuntime } from "vite-plugin-manus-runtime";
 var plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime()];
 var vite_config_default = defineConfig({
   plugins,
-  base: "/",
+  base: "/flypi-landing-page/",
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "client", "src"),
