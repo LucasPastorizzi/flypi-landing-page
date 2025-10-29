@@ -62,7 +62,7 @@ export default function Hero() {
           <div className="hidden md:flex items-center justify-center">
             <div className="relative w-full h-250">
               <div className="absolute inset-0 bg-gradient-to-r from-accent to-blue-500 rounded-3xl opacity-20 blur-3xl"></div>
-              <img src={`${import.meta.env.BASE_URL}IPHONE.png`} alt="Logo-Flypi" className="relative w-full h-full object-contain drop-shadow-2xl" />
+             <img src="/IPHONE.png" alt="Logo-Flypi" className="relative w-full h-full object-contain drop-shadow-2xl" />
             </div>
           </div>
         </div>
