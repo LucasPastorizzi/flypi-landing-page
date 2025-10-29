@@ -60,10 +60,10 @@ export default function Hero() {
 
           {/* Right Image */}
           <div className="hidden md:flex items-center justify-center">
-            <div className="relative w-full h-160">
+            <div className="relative w-full h-250">
               <div className="absolute inset-0 bg-gradient-to-r from-accent to-blue-500 rounded-3xl opacity-20 blur-3xl"></div>
               <img
-                src="/Logoatt.png"
+                src="/IPHONE.png"
                 alt="Flypi"
                 className="relative w-full h-full object-contain drop-shadow-2xl"
               />
